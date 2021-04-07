@@ -9,6 +9,9 @@ input, select {
   border: white;
   margin: 4px 0 0;
 }
+input[type="radio"], input[type="checkbox"] {
+  margin-right: 10px;
+}
 .container {
 /*   margin: 56px 104px 0; */
   width: 100%;
@@ -16,6 +19,9 @@ input, select {
 }
 .header {
   text-align: center;
+}
+.optional {
+  font-size: 14px;
 }
 .form-group {
   display: flex;
